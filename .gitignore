@@ -1,6 +1,3 @@
-/target
-/classes
-/checkouts
 pom.xml
 pom.xml.asc
 *.jar
@@ -9,3 +6,12 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
