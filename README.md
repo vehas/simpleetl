@@ -1,10 +1,14 @@
 ###simple etl
+
 simple etl parse log of zip file in folder and send to elasticsearch server by bulk
+
 ```bash
 lein compile
 lein uberjar
 ```
+
 use by add folder location elasticsearch url and limit file example
+
 ```bash
 java -jar ./target/etl-0.1.0-SNAPSHOT-standalone.jar /path/to/file http://localhost:9200/log/log/_bulk 1
 
