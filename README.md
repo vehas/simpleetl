@@ -1,4 +1,4 @@
-###simple etl
+### simple etl
 
 simple etl parse log of zip file in folder and send to elasticsearch server by bulk
 
@@ -14,7 +14,7 @@ java -jar ./target/etl-0.1.0-SNAPSHOT-standalone.jar /path/to/file http://localh
 
 ```
 
-#todo
+# todo
 elasticsearch side
 - [ ] assign more ram and cpu to docker node
 - [ ] config low disk watermark
